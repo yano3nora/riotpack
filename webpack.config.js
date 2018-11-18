@@ -8,6 +8,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = [
   {
+    devtool: 'source-map',
     performance: {
       hints: false
     },
