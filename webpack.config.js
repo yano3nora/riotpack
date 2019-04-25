@@ -102,7 +102,13 @@ module.exports = [
         host: 'localhost',
         port: 3000,
         proxy: '192.168.33.10',  // edit
+        reloadDeley: 0,
+        cors: true,
+        injectChanges: true,
+        injectCss: true,
+        open: false,
         watchOptions: {
+          awaitWriteFinish : true,
           ignoreInitial: true,
           ignored: [],  // edit
         },
